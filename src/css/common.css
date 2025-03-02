@@ -6,20 +6,14 @@
 }
 
 body {
-  background: linear-gradient(45deg, #ff0000, #ff9900, #ffff00, #33cc33, #3399ff, #9900cc);
-  color: #fff;
+  background: #f8f8f8;
+  color: #000;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
-  animation: rainbow-bg 10s infinite linear;
-}
-
-@keyframes rainbow-bg {
-  0% { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(360deg); }
 }
 
 button {
@@ -57,7 +51,7 @@ input {
   align-items: center;
   gap: 15px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 30px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
 }
@@ -93,7 +87,7 @@ input {
   list-style: none;
   justify-content: center;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 30px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
 }
